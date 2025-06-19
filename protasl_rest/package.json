@@ -1,0 +1,22 @@
+{
+  "name": "exercises-rest-api",
+  "version": "1.0.0",
+  "description": "A REST API for managing exercises",
+  "main": "exercises_controller.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon exercises_controller.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.14.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.3"
+  }
+}
